@@ -1,0 +1,83 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+#gameControllerBox {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.headerBox {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: lightslategray;
+    width: 100vw;
+    grid-template-columns: 200px 200px;
+    text-align: center;
+}
+
+#gameBox {
+    display: grid;
+    grid-template-columns: 200px 2px 200px 2px 200px;
+    grid-template-rows: 200px 2px 200px 2px 200px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.gridSquare {
+    font-size: 10rem;
+    text-align: center;
+    padding: 10px;
+    height: 180px;
+    overflow: hidden;
+}
+
+.greenBg {
+    background-color: aquamarine;
+}
+
+.hashes {
+    background-color: black;
+    height: 100%;
+    width: 100%;
+}
+
+.wide{
+    grid-column: span 5;
+}
+
+.name {
+    font-weight: bold;
+    margin: 0;
+    padding-top: 10px;
+}
+
+p {
+    margin: 0;
+    padding-top: 3px;
+    padding-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+#controllerBox {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    background-color: black;
+    border-radius: 10px;
+    width: 300px;
+    height: 210px;
+    color: wheat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+#restart {
+    margin-top: 10px;
+}

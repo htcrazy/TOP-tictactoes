@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tic Tac Toe</title>
+    <script src="external.js" defer></script>
+</head>
+<body>
+    <div class="headerBox">
+        <div>
+            <h2 class="name" id="p1Name">Player 1</h2>
+            <p id="p1Score">0</p>
+        </div>
+        <div>
+            <h2 class="name" id="p2Name">Player 2</h2>
+            <p id="p2Score">0</p>
+        </div>
+    </div>
+    <div id="gameBox">
+        <div id="g00" class="gridSquare"></div>
+        <div class="hashes"></div>
+        <div id="g01" class="gridSquare"></div>
+        <div class="hashes"></div>
+        <div id="g02" class="gridSquare"></div>
+        <div class="hashes wide"></div>
+        <div id="g10" class="gridSquare"></div>
+        <div class="hashes"></div>
+        <div id="g11" class="gridSquare"></div>
+        <div class="hashes"></div>
+        <div id="g12" class="gridSquare"></div>
+        <div class="hashes wide"></div>
+        <div id="g20" class="gridSquare"></div>
+        <div class="hashes"></div>
+        <div id="g21" class="gridSquare"></div>
+        <div class="hashes"></div>
+        <div id="g22" class="gridSquare"></div>
+    </div>
+    
+    
+    <div id="controllerBox">
+        <p>Interface Thing</p>
+        <button type="button" id="setP1Name">Change Player 1 Name</button><input id="getP1Name">
+        <button type="button" id="setP2Name">Change Player 2 Name</button><input id="getP2Name">
+        <button type="button" id="restart">Restart Game</button>
+        <p id="gameMessage">Player 1's Turn</p>
+    </div>
+</body>
+</html>
